@@ -1,0 +1,28 @@
+body {
+    background image: https://avatars.mds.yandex.net/i?id=b23faab13ea9fea9c1ce0d14dd811194be40c5bd-12540073-images-thumbs&n=13;
+    color:rgb(239, 236, 236);
+    text-align: center;
+}
+
+table{
+    margin:auto;
+    border-collapse: collapse;
+    background:burlywood
+}
+
+
+th, td {
+    padding: 10px 16px;
+}
+
+
+th{
+color:beige
+}
+
+
+tr:hover{
+background-color: red;
+  transform: scale(1.05);
+    
+}

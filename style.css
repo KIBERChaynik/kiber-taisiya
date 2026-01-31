@@ -1,0 +1,77 @@
+p{
+    color:black;
+}
+
+
+header{
+    background-color: rgb(237, 230, 190);
+    color:black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+iframe{
+    width: 100%;
+}
+
+vidosik h1{
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0 ;
+    color : #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    flex-direction: column;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnZgtCDRmkb9uPrTrLpAffFxwA8-Srp1MDeA&s");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h1{
+    font-size: 32px;
+    color: #fff;
+}
+
+
+   .gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+   }
+
+
+
+   .card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background: #fff;
+      transition: transform 0.3s ease; 
+   }
+
+
+   .card:hover {
+   transform: scale(2.05); 
+}
+
+
+.card img {
+  width: 250px;
+  height: 180px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+
+}
+
